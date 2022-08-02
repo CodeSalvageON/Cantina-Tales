@@ -1,0 +1,71 @@
+body {
+  user-select: none;
+  background-color: #450202;
+}
+
+p {
+  margin: 0;
+}
+
+#nav-comp {
+  width: 700px;
+  height: 600px;
+  background-color: #8a3333;
+  border-radius: 23px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  margin: auto;
+  box-shadow: 0px 0px 40px 15px #5c1010;
+}
+
+.title {
+  font-size: 55px;
+  font-family: 'Cormorant SC', serif;
+}
+
+.subtitle {
+  font-size: 25px;
+  font-family: 'Cormorant SC', serif;
+}
+
+.comp-contain {
+  width: 700px;
+  height: 600px;
+  border-radius: 23px;
+  position: relative;
+}
+
+.screen {
+  width: 650px;
+  height: 550px;
+  border-radius: 23px;
+  position: relative;
+}
+
+.villagewood {
+  width: 500px;
+  height: 100px;
+  border-radius: 20px;
+  overflow: none;
+  box-shadow: 0px 0px 40px 15px #d19fbe;
+}
+
+.menu-option {
+  width: 350px;
+  font-size: 20px;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 5px 10px 8px #504949;
+  background-color: #792a2a;
+  font-family: 'Cormorant SC', serif;
+  cursor: hover;
+  transition: box-shadow 100ms ease-in-out, background-color 100ms ease-in-out;
+}
+
+.menu-option:hover {
+  background-color: #baa0b2;
+  box-shadow: 5px 10px 8px #b48eb0;
+}
