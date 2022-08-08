@@ -39,6 +39,53 @@
           </section>
         </center>
       </section>
+      <section class="comp-contain" id="customize">
+        <center>
+          <p class="title">
+            Customization
+          </p>
+        </center>
+        <br/>
+        <br/>
+        <br/>
+        <form>
+          <p class="subtitle">Tale Title: <input type="text" maxlength="100" required id="gameTitle" class="textInput"/></p>
+          <p class="subtitle">Automated Dugneon Master: <select class="textInput">
+            <option value="none">None</option>
+            <option value="kmart">K-MRT</option>
+            <option value="skeleton">Skel-Eton Syndicate</option>
+            <option value="grievy">The Grievery</option>
+          </select></p>
+          <br/>
+          <section id="adm-info">
+            <p>
+              <b>K-MRT</b>
+              <br/>
+              K-MRT is an operating system known to wreak havoc everywhere it is installed. (Basic things like raider/pirate attacks and loot will be introducted in your Tale.)
+              <br/>
+              <br/>
+              <b>Skel-Eton Syndicate</b>
+              <br/>
+              The Skel-Eton Syndicate is a notorious and ancient crime syndicate whose power rivals that of the Hutts. (Pirate attacks, bounty hunters, loot, and soldiers will be introduced in your Tale.)
+              <br/>
+              <br/>
+              <b>The Grievery</b>
+              <br/>
+              Built by an ancient Dark-side cult many years ago, the Grievery is a hidden superweapon that quietly influences the minds of sentient species, slowly generating conflict within the Galaxy. (Pirate attacks, bounty hunters, loot, soldiers, and automated factions will be introduced in your Tale.)
+            </p>
+          </section>
+          <p class="subtitle">
+            Tale description (Optional):
+          </p>
+          <textarea cols="50" rows="4" class="textInput" id="description" maxlength="300"></textarea>
+          <p class="subtitle">
+            Tale rules:
+          </p>
+          <textarea cols="50" rows="4" class="textInput" id="rules" required maxlength="600"></textarea>
+        </form>
+      </section>
     </section>
+
+    <script src="/scripts/index.js"></script>
   </body>
 </html>

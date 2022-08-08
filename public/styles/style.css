@@ -1,6 +1,15 @@
+@font-face {
+  font-family: NROME;
+  src: url('times-new-roman-pixel.ttf');
+}
+
 body {
   user-select: none;
   background-color: #450202;
+}
+
+textarea {
+  resize: none;
 }
 
 p {
@@ -19,6 +28,19 @@ p {
   position: absolute;
   margin: auto;
   box-shadow: 0px 0px 40px 15px #5c1010;
+}
+
+#customize {
+  display: none;
+}
+
+#adm-info {
+  width: 600px;
+  height: 80px;
+  overflow-y: auto;
+  border-radius: 15px;
+  background-color: #905a5a;
+  font-family: NROME;
 }
 
 .title {
@@ -68,4 +90,12 @@ p {
 .menu-option:hover {
   background-color: #baa0b2;
   box-shadow: 5px 10px 8px #b48eb0;
+}
+
+.textInput {
+  border-radius: 5px;
+  border: hidden;
+  padding: 8px;
+  outline: none;
+  font-family: NROME;
 }
